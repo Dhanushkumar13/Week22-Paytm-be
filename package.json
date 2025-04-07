@@ -1,0 +1,22 @@
+{
+  "name": "week22-paytm-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc -b && node ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.1",
+    "@types/mongoose": "^5.11.96",
+    "@types/typescript": "^0.4.29",
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.2"
+  }
+}
