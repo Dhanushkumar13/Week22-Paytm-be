@@ -21,18 +21,18 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        maxLength: true
+        maxLength: 30
     },
     lastName: {
         type: String,
         required: true,
         trim: true,
-        maxLength: true
+        maxLength: 30
     },
 })
 
-const UserModal = mongoose.model('User',UserSchema)
+const UserModel = mongoose.model('User',UserSchema)
 
 module.exports ={
-    UserModal
+    UserModel
 }
